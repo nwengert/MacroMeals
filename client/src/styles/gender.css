@@ -1,0 +1,19 @@
+
+/* this came from http://jsfiddle.net/nuwa0me0/ */
+.radio_item{
+    display: none !important;
+    width: 90px;
+    }
+.label_item {
+    margin: 5px;
+    opacity: 0.2;
+    width: 90px;
+    height: 90px;
+    border-radius: 45px;
+    }
+.radio_item:checked + label {
+    opacity: 1;
+}
+label {
+    cursor: pointer;   
+}

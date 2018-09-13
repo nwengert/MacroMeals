@@ -1,0 +1,27 @@
+.mealButtons{
+    margin: 5px;
+    font-size: 28px;
+    height: 50px;
+    width: 122px;
+    border-radius: 44px;
+    color: white;
+    background: linear-gradient(to right, gray,  rgb(80, 80, 80));
+}
+
+
+
+#natePlugDiv{
+    height: 4px;
+}
+#natePlug{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    top: 64px;
+}
+#fireHawk{
+    height: auto;
+    width: 234px;
+}

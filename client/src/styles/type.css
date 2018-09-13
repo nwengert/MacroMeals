@@ -1,0 +1,37 @@
+#typeDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient( to left, rgb(173, 189, 165), rgb(146, 163, 138));
+}
+/* this came from http://jsfiddle.net/nuwa0me0/ */
+.type_radio_item{
+    display: none !important;
+    width: 90px;
+    }
+.type_radio_item:checked + label {
+    opacity: 1;
+    color: rgb(34, 104, 177);
+    background: radial-gradient(white, white, rgb(44, 84, 134));
+    }
+.type_label_item {
+    font-size: 20px;
+    margin: 4px;
+    opacity: 0.4;
+    width: 90px;
+    height: 90px;
+    border-radius: 45px;
+    border: solid 1px rgb(19, 38, 61);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+    background: radial-gradient(rgb(34, 104, 177), rgb(31, 58, 90));
+    }
+.type_label_item:hover {
+    box-shadow: 0px 5px 50px black;
+    position: relative;
+    transform: scale(1.1);
+}
