@@ -30,6 +30,7 @@
     #malePic{
         position: relative;
         bottom: 32px;
+        left: -28px;
     }
     .genderPics:hover {
         transform: scale(1.4);
@@ -114,7 +115,7 @@
     }
     .nextButton{
         margin: 22px;
-        font-size: 28px;
+        font-size: 22px;
         height: 50px;
         width: 104px;
         border-radius: 44px;
