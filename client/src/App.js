@@ -14,8 +14,8 @@ const App = () => {
             <Header />
             <Switch>
                 <Route exact path='/' component={Selections}/>
-                <Route path='/prep' component={Prep}/>
-                <Route path='/meal' component={Meal}/>
+                <Route path='/prep'   component={Prep}/>
+                <Route path='/meal'   component={Meal}/>
             </Switch>
             <Footer />
         </div>
