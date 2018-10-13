@@ -14,8 +14,8 @@ app.use(express.static(path.join(__dirname, "client", "build")));
 
 
 mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/meals', {useNewUrlParser: true})  
-.then(()=> console.log("Connected to MongoDB"))
-.catch(err => console.error(err));
+    .then(()=> console.log("Connected to MongoDB"))
+    .catch(err => console.error(err));
 
 app.use("/meals", require("./routes/meals.js"));
 

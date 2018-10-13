@@ -128,7 +128,7 @@
     }
     .backButton{
         margin: 5px;
-        font-size: 28px;
+        font-size: 22px;
         height: 50px;
         width: 104px;
         border-radius: 44px;
@@ -142,7 +142,7 @@
     .restartButton{
         margin: 5px;
         margin-top: 22px;
-        font-size: 28px;
+        font-size: 22px;
         height: 50px;
         width: 114px;
         border-radius: 44px;
